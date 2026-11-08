@@ -44,6 +44,7 @@ All personal content (name, bio, skills, projects, awards, email and social link
 
 - **Skill levels:** set each skill's `level` to `Familiar`, `Proficient` or `Expert`, which shows as a 1–3 segment bar. Leave it as `''` to show the skill with no bar.
 - **Project images (optional):** put the file in `public/images/projects/`, then set the project's `image` to `/images/projects/<file name>` and `imageAlt` to a short description. Leave both as `''` for no image.
+- **Profile photo:** `public/images/billy_profile.jpg`, shown as a circle beside the introduction on the home page (above it on phones). To change it, replace the file and keep the same name; a roughly square headshot works best. To hide it, set `photo` in `profile` to `''`.
 - **Resume:** the PDF is `public/billy_laplant_resume.pdf`, linked from the home page button and the header menu (it opens in a new tab). To update it, replace the file and keep the same name. To hide it, set `resume` in `profile` to `''`.
 The page title and link preview text are in [`index.html`](index.html).
 

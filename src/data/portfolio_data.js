@@ -3,6 +3,9 @@
 export const profile = {
   name: 'Billy LaPlant',
   headline: 'Manufacturing Engineer at Subaru of Indiana Automotive, Purdue MBT Student',
+  // Profile photo in public/images/. Set to '' to hide it.
+  photo: '/images/billy_profile.jpg',
+  photoAlt: 'Headshot of Billy LaPlant',
   // Resume PDF in public/. Set to '' to hide the resume button and link.
   resume: '/billy_laplant_resume.pdf',
   bio: 'I work in the advanced manufacturing planning group at SIA. Through my job and in my classes, I research and implement new technologies in DevOps and manufacturing. I find cost-cutting, fast automation solutions and create business cases with the value and often see the project to completion.',
