@@ -72,3 +72,13 @@ to check, have you been inputting my prompts in the prompts.md file?
 ## 2026-11-08 18:22
 
 good practice in coding is to commit early and often. Therefore, I would like to move forward with the next steps before adding my real info. I will add the real info after the website is confirmed and tested.
+
+## 2026-11-08 18:27
+
+[Screenshot attached: GitHub banner on billylaplant/portfolio_website reading "Your main branch isn't protected"]
+
+i have never seen this message before regarding my main branch not being protected. explain the message and give me advice
+
+## 2026-11-08 18:41
+
+you did not mention steps for containers, networking and security. Are these steps i must take?
