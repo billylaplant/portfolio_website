@@ -120,3 +120,13 @@ the site must use the spelling "resume" without the accents.
 ## 2026-11-08 19:51
 
 tell me what files to add and what files to commit. I have made significant progress and dont want to miss anything i need to commit and push. then send steps.
+
+## 2026-11-08 19:55
+
+[Screenshot attached: GitHub repo page showing main at "Merge pull request #1 from billylaplant/initial_build", 3 commits, and a banner "initial_build had recent pushes 2 minutes ago" with a "Compare & pull request" button]
+
+I believe i made a mistake. there are no pull requests
+
+## 2026-11-08 20:08
+
+I added "billy_profile picture.jpeg" to the files. You must add this picture so that it is displayed on the home screen in a professional way. Potentially in the background or right side of the screen next to the introduction.
