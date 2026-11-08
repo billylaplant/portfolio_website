@@ -29,6 +29,11 @@ export default function Header() {
           <Link to="/#skills" onClick={close}>Skills</Link>
           <NavLink to="/projects" onClick={close}>Projects</NavLink>
           <Link to="/#contact" onClick={close}>Contact</Link>
+          {profile.resume && (
+            <a href={profile.resume} target="_blank" rel="noreferrer" onClick={close}>
+              Resume
+            </a>
+          )}
         </nav>
       </div>
     </header>

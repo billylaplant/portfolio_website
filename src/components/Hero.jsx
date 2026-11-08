@@ -12,6 +12,16 @@ export default function Hero() {
         <div className="hero-actions">
           <Link to="/projects" className="button">View my work</Link>
           <Link to="/#contact" className="button button-outline">Get in touch</Link>
+          {profile.resume && (
+            <a
+              href={profile.resume}
+              target="_blank"
+              rel="noreferrer"
+              className="button button-outline"
+            >
+              Resume
+            </a>
+          )}
         </div>
       </div>
     </section>

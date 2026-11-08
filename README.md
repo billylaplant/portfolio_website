@@ -40,7 +40,11 @@ npm run lint
 ## Editing content
 
 All personal content (name, bio, skills, projects, awards, email and social links) is in
-[`src/data/portfolio_data.js`](src/data/portfolio_data.js). Values marked `PLACEHOLDER` still need real details.
+[`src/data/portfolio_data.js`](src/data/portfolio_data.js).
+
+- **Skill levels:** set each skill's `level` to `Familiar`, `Proficient` or `Expert`, which shows as a 1–3 segment bar. Leave it as `''` to show the skill with no bar.
+- **Project images (optional):** put the file in `public/images/projects/`, then set the project's `image` to `/images/projects/<file name>` and `imageAlt` to a short description. Leave both as `''` for no image.
+- **Resume:** the PDF is `public/billy_laplant_resume.pdf`, linked from the home page button and the header menu (it opens in a new tab). To update it, replace the file and keep the same name. To hide it, set `resume` in `profile` to `''`.
 The page title and link preview text are in [`index.html`](index.html).
 
 Colors, spacing and font sizes are CSS variables at the top of [`src/index.css`](src/index.css).
@@ -74,5 +78,5 @@ One-time setup in the Google Cloud console:
 2. Connect GitHub through Cloud Build and give it access to this repository.
 3. Set the branch to `^main$` and the build type to Dockerfile, at `/Dockerfile`.
 4. Name the service `portfolio-website` (Cloud Run doesn't allow underscores).
-5. Set the region to `us-central1`, allow public access, and set the container port to `8080`.
+5. Set the region to `us-central1` and allow public access. Under **Containers, Networking, Security**, check the container port is `8080` (the default) and leave everything else at its defaults. Optionally, set minimum instances to `0` and maximum instances to `2` or `3` to keep costs low.
 6. Create the service, then open the URL Cloud Run shows.

@@ -72,3 +72,51 @@ to check, have you been inputting my prompts in the prompts.md file?
 ## 2026-11-08 18:22
 
 good practice in coding is to commit early and often. Therefore, I would like to move forward with the next steps before adding my real info. I will add the real info after the website is confirmed and tested.
+
+## 2026-11-08 18:27
+
+[Screenshot attached: GitHub banner on billylaplant/portfolio_website reading "Your main branch isn't protected"]
+
+i have never seen this message before regarding my main branch not being protected. explain the message and give me advice
+
+## 2026-11-08 18:41
+
+you did not mention steps for containers, networking and security. Are these steps i must take?
+
+## 2026-11-08 18:49
+
+git add README.md PROMPTS.md
+git commit -m "Clarify Cloud Run settings in README"
+git push
+
+## 2026-11-08 18:49
+
+test complete. All links work. Now, you must provide me with every piece of personal information I need to give you to fill in the placeholder information on the website. I may add more items to add after you send your list.
+
+## 2026-11-08 18:55
+
+I think I will use a file to house all the information requested (other than the pictures). Give suggestions for file type and steps.
+
+## 2026-11-08 18:56
+
+yes
+
+## 2026-11-08 19:30
+
+my_info is ready. I added 2 extra items to change on the site.
+
+## 2026-11-08 19:40
+
+Ready. One point: I added the resume and it is currently a pdf. How must we best display or allow the website viewer to download the pdf?
+
+## 2026-11-08 19:47
+
+I added an an additional image that is for the predictive maintenance project. The file is called "solar_pm.png" The image is a rooftop solar array.
+
+## 2026-11-08 19:49
+
+the site must use the spelling "resume" without the accents.
+
+## 2026-11-08 19:51
+
+tell me what files to add and what files to commit. I have made significant progress and dont want to miss anything i need to commit and push. then send steps.

@@ -16,6 +16,9 @@ dist-ssr
 .env
 .env.*
 
+# Personal info draft (content goes into src/data/portfolio_data.js)
+my_info.md
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
