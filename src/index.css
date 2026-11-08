@@ -327,6 +327,75 @@ main {
   font-weight: 600;
 }
 
+.project-card {
+  overflow: hidden;
+}
+
+.project-image {
+  display: block;
+  width: calc(100% + 2 * var(--space-6));
+  max-width: none;
+  margin: calc(-1 * var(--space-6)) calc(-1 * var(--space-6)) var(--space-4);
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  background: var(--color-bg-alt);
+  border-bottom: 1px solid var(--color-border);
+}
+
+/* ---------- Skill bars ---------- */
+.skills-legend {
+  margin-top: calc(-1 * var(--space-2));
+  margin-bottom: var(--space-6);
+  font-size: var(--text-sm);
+  color: var(--color-muted);
+}
+
+.skill-list {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.skill-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-2);
+  margin-bottom: var(--space-1);
+  font-size: var(--text-sm);
+}
+
+.skill-name {
+  color: var(--color-heading);
+  font-weight: 500;
+}
+
+.skill-level {
+  color: var(--color-muted);
+}
+
+.skill-bar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  height: 8px;
+}
+
+.skill-segment {
+  background: var(--color-border);
+}
+
+.skill-segment:first-child {
+  border-radius: 4px 0 0 4px;
+}
+
+.skill-segment:last-child {
+  border-radius: 0 4px 4px 0;
+}
+
+.skill-segment.filled {
+  background: var(--color-accent);
+}
+
 /* ---------- Awards ---------- */
 .awards-list {
   display: grid;
