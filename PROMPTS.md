@@ -134,3 +134,7 @@ I added "billy_profile picture.jpeg" to the files. You must add this picture so 
 ## 2026-11-08 20:18
 
 new update: change "awards" title to "certifications"
+
+## 2026-11-08 20:22
+
+i do not see the pull request on github
