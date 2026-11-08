@@ -17,7 +17,7 @@ export default function ProjectsPage() {
       </section>
       <section className="section section-alt">
         <div className="container">
-          <h2 className="section-title">Awards</h2>
+          <h2 className="section-title">Certifications</h2>
           <ul className="awards-list">
             {awards.map((award, i) => (
               <li key={i} className="card award">

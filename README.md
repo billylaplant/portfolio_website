@@ -3,7 +3,7 @@
 A personal portfolio site built with React and Vite. It has two pages:
 
 - `/`: landing section, skills and contact information
-- `/projects`: projects and awards showcase
+- `/projects`: projects and certifications showcase
 
 ## Requirements
 
@@ -39,7 +39,7 @@ npm run lint
 
 ## Editing content
 
-All personal content (name, bio, skills, projects, awards, email and social links) is in
+All personal content (name, bio, skills, projects, certifications (the `awards` list), email and social links) is in
 [`src/data/portfolio_data.js`](src/data/portfolio_data.js).
 
 - **Skill levels:** set each skill's `level` to `Familiar`, `Proficient` or `Expert`, which shows as a 1–3 segment bar. Leave it as `''` to show the skill with no bar.
